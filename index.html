@@ -131,25 +131,25 @@
                         'fill-color': [
                         'step',
                         ['get', 'casePer10k'],
-                        '#FFE5E5',   // 100–299 light red
+                        '#FFE5E5',   
                         300,
-                        '#FFCCCC',   // 300–499
+                        '#FFCCCC',   
                         500,
-                        '#FF9999',   // 500–699
+                        '#FF9999',   
                         700,
-                        '#FF6666',   // 700–899
+                        '#FF6666',   
                         900,
-                        '#FF3333',   // 900–1099
+                        '#FF3333',   
                         1100,
-                        '#FF0000',   // 1100–1299 pure red
+                        '#FF0000',   
                         1300,
-                        '#CC0000',   // 1300–1499 dark red
+                        '#CC0000',   
                         1500,
-                        '#990000',   // 1500–1699 deeper red
+                        '#990000',   
                         1700,
-                        '#660000',   // 1700–1899 very deep red
+                        '#660000',   
                         1900,
-                        '#330000'    // 1900–2020+ darkest red
+                        '#330000'
                     ],
                         'fill-outline-color': '#BBBBBB',
                         'fill-opacity': 0.7,
@@ -169,22 +169,22 @@
                     '1900-2020+'
                 ];
                 const colors = [
-                    '#FFE5E570', // 100–299 very light red
-                    '#FFCCCC70', // 300–499 light red
-                    '#FF999970', // 500–699 soft red
-                    '#FF666670', // 700–899 medium red
-                    '#FF333370', // 900–1099 strong red
-                    '#FF000070', // 1100–1299 pure red
-                    '#CC000070', // 1300–1499 dark red
-                    '#99000070', // 1500–1699 deeper red
-                    '#66000070', // 1700–1899 very deep red
-                    '#33000070'  // 1900–2020+ almost black-red
+                    '#FFE5E570', 
+                    '#FFCCCC70', 
+                    '#FF999970', 
+                    '#FF666670', 
+                    '#FF333370', 
+                    '#FF000070', 
+                    '#CC000070', 
+                    '#99000070', 
+                    '#66000070', 
+                    '#33000070'  
                 ];
 
 
                 // create legend
                 const legend = document.getElementById('legend');
-                legend.innerHTML = "<b>Population Density<br>(people/sq.mi.)</b><br><br>";
+                legend.innerHTML = "<b>Number of Cases<br>(Per 10k People)</b><br><br>";
 
 
                 layers.forEach((layer, i) => {
